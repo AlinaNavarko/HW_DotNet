@@ -6,20 +6,20 @@ namespace HW03.Operators_4
     {
         static void Main(string[] args)
         {
-            int Number1;
-            int Number2;
+            int number1;
+            int number2;
             int customResult;
             int resultN1N2;
 
             Console.WriteLine("Enter Integer Number1:");
-            while (!int.TryParse(Console.ReadLine(), out Number1))
+            while (!int.TryParse(Console.ReadLine(), out number1))
             {
                 Console.WriteLine("Error: entered symbol(s) is not Integer Number. Please Try once again. ");
                 Console.WriteLine("Enter Integer Number1:");
             }
 
             Console.WriteLine("Enter Integer Number2:");
-            while (!int.TryParse(Console.ReadLine(), out Number2))
+            while (!int.TryParse(Console.ReadLine(), out number2))
             {
                 Console.WriteLine("Error: entered symbol(s) is not Integer Number. Please Try once again. ");
                 Console.WriteLine("Enter Integer Number2:");
@@ -33,7 +33,7 @@ namespace HW03.Operators_4
                 operatorX = Console.ReadLine();
             }
 
-            Console.WriteLine($"What {Number1} {operatorX} {Number2} is?:");
+            Console.WriteLine($"What {number1} {operatorX} {number2} is?:");
             while (!int.TryParse(Console.ReadLine(), out customResult))
             {
                 Console.WriteLine("Error: entered symbol(s) is not Integer Number. Please Try once again. ");
@@ -41,15 +41,15 @@ namespace HW03.Operators_4
             }
 
             if (operatorX == "+")
-              resultN1N2 = Number1 + Number2; 
+              resultN1N2 = number1 + number2; 
             else
-               resultN1N2 = Number1 - Number2;
+               resultN1N2 = number1 - number2;
                       
             if (customResult == resultN1N2)
               Console.WriteLine("Correct!");
-            if (resultN1N2 > customResult)
+            else if (resultN1N2 > customResult)
               Console.WriteLine("Incorrect! The correct result should be greater");
-            if (resultN1N2 < customResult)
+            else 
               Console.WriteLine("Incorrect! The correct result should be less");
         }
     }

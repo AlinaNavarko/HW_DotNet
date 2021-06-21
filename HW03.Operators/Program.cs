@@ -11,27 +11,27 @@ namespace HW03.Operators
 
         private static void CalculateSumOfTwoIntegers()
         {
-            int Number1;
-            int Number2;
+            int number1;
+            int number2;
 
             Console.WriteLine("Enter Integer Number1:");
-            while (!int.TryParse(Console.ReadLine(), out Number1))
+            while (!int.TryParse(Console.ReadLine(), out number1))
             {
                 Console.WriteLine("Error: entered symbol(s) is not Integer Number. Please Try once again. ");
                 Console.WriteLine("Enter Integer Number1:");
             }
 
             Console.WriteLine("Enter Integer Number2:");
-            while (!int.TryParse(Console.ReadLine(), out Number2))
+            while (!int.TryParse(Console.ReadLine(), out number2))
             {
                 Console.WriteLine("Error: entered symbol(s) is not Integer Number. Please Try once again. ");
                 Console.WriteLine("Enter Integer Number2:");
             }
 
             //calculate sum
-            double Sum_of_N1_N2 = Number1 + Number2;
+            double sum_of_N1_N2 = number1 + number2;
 
-            Console.WriteLine($"Number1 + Number2 = {Number1} + {Number2} = {Sum_of_N1_N2}");
+            Console.WriteLine($"Number1 + Number2 = {number1} + {number2} = {sum_of_N1_N2}");
         }
     }
 }
