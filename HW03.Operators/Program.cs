@@ -7,7 +7,6 @@ namespace HW03.Operators
         static void Main(string[] args)
         {
             CalculateSumOfTwoIntegers();
-
         }
 
         private static void CalculateSumOfTwoIntegers()

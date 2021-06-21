@@ -36,16 +36,13 @@ namespace HW03.Operators_2
 
             if (SumN1N2 == Sum_of_N1_N2) 
             {
-                Console.WriteLine("Correct!");
-                                        
+                Console.WriteLine("Correct!");                     
             }
 
             else
             {
                 Console.WriteLine($"You are wrong! The correct answer is {Sum_of_N1_N2}");
-
             }
-
         }
     }
 }

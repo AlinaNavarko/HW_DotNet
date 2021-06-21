@@ -31,6 +31,7 @@ namespace HW03.Operators_7_Birthday
                 Console.WriteLine("The number of Year should be positive integer. Please try once again");
                 currentYear = int.Parse(Console.ReadLine());
             }
+
             Console.WriteLine("Enter the current month");
             int currentMonth = int.Parse(Console.ReadLine());
             while (currentMonth > 12 || userMonth < 1)
@@ -46,7 +47,6 @@ namespace HW03.Operators_7_Birthday
             {
                 if (userMonth <= currentMonth)
                     userAge = currentYear - userYear;
-
                 else
                     userAge = currentYear - userYear - 1;
                 Console.WriteLine($"Your full years = {userAge}");

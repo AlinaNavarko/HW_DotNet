@@ -37,20 +37,14 @@ namespace HW03.Operators_3
             if (SumN1N2 == Sum_of_N1_N2)
             {
                 Console.WriteLine("Correct!");
-
             }
-
             else if (Sum_of_N1_N2 > SumN1N2)
-            {
-                
+            {    
                 Console.WriteLine("Incorrect! The correct sum should be greater");
-
             }
             else if (Sum_of_N1_N2 < SumN1N2)
             {
-                
                 Console.WriteLine("Incorrect! The correct sum should be less");
-
             }
         }
     }
