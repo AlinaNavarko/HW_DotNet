@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HW._03.Casting
+namespace HW._02.Casting
 {
     class Program
     {

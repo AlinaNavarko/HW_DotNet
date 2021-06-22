@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HW._05.Quadratic.Formula
+namespace HW._02.Quadratic.Formula
 {
     class Program
     {

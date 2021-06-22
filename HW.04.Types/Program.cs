@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace HW._04.Types
+namespace HW._02.Types
 {
     class Program
     {
