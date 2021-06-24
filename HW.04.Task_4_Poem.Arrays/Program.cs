@@ -7,19 +7,14 @@ namespace HW._04.Task_4_Poem.Arrays
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a text of a poem in one line. Use ';' to separate rows of the poem");
-            string[] arrayPoem = new string[1];
-            for (int i = 0; i < arrayPoem.Length ; i++)
-            {
-                arrayPoem[i] = Console.ReadLine();
-                Console.WriteLine(arrayPoem[i]);
-            }
-                        
-            string[] arrayPoem2 = new string[1];
-            for (int i = 0; i < arrayPoem.Length; i++)
-            {
-                arrayPoem[i] = Console.ReadLine();
-                Console.WriteLine(arrayPoem[i]);
-            }
+            string poem = Console.ReadLine().ToUpper();
+            poem = poem.Replace("O", "A");
+
+            string[] poemSpl = poem.Split(';');
+          
+            Console.WriteLine("A poem splitted by rows:");
+            for (int i = 0; i < poemSpl.Length; i++)
+             Console.WriteLine(poemSpl[i].Trim());
         }
     }
 }
