@@ -68,26 +68,10 @@ namespace HW._04.Task_5.String
         private static void MethodPart3(string str)
          {
             Console.WriteLine("SUBTASK_3:");
-            
-            int amountPunct = str.Count(char.IsPunctuation);
-            Console.WriteLine($"The amount of punctuation marks is: {amountPunct}");
-
-             char[] numbers = "0123456789".ToCharArray();
-             int amountNumbers = 0;
-             foreach (char strChar in str)
-             {
-                 foreach (char numberChar in numbers)
-                 {
-                     if (strChar.Equals(numberChar))
-                     {
-                         amountNumbers++;
-                         break;
-                     }
-                 }
-             }
-
             string str3 = str.Replace(" ", string.Empty);
-            int amountLetters = str3.Length - amountNumbers - amountPunct;
+            int amountPunct = str.Count(char.IsPunctuation);
+            int amountLetters = str.Count(char.IsLetter);
+            Console.WriteLine($"The amount of punctuation marks is: {amountPunct}");
             Console.WriteLine($"The amount of letters is: {amountLetters}");
          }
 
