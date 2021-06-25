@@ -87,11 +87,10 @@ namespace HW._04.Task_5.String
             Console.WriteLine($"The amount of letters is: {amountLetters}");
          }
 
-        private static void MethodPart4(string str)
-       /* {
-            Console.WriteLine("SUBTASK_4:");
+        /* private static void MethodPart4(string str)
+         {
+             Console.WriteLine("SUBTASK_4:");
 
-        }*/
-    }
+         }*/
     }
 }

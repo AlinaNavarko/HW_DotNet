@@ -7,8 +7,8 @@ namespace HW._04.Task_4_Poem.Arrays
         static void Main(string[] args)
         {
             Console.WriteLine("Enter a text of a poem in one line. Use ';' to separate rows of the poem");
-            string poem = Console.ReadLine().ToUpper();
-            poem = poem.Replace("O", "A");
+            string poem = Console.ReadLine();
+            poem = poem.Replace("O", "A", StringComparison.CurrentCultureIgnoreCase);
 
             string[] poemSpl = poem.Split(';');
           
