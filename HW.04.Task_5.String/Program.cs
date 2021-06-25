@@ -12,6 +12,7 @@ namespace HW._04.Task_5.String
             MethodPart1(str);
             MethodPart2(str);
             MethodPart3(str);
+            MethodPart4(str);
         }
         private static void MethodPart1(string str)
         {
@@ -48,14 +49,17 @@ namespace HW._04.Task_5.String
                     positionMin2 = i;
             }
 
-            Console.WriteLine("SUBTASK_2: An array splitted by rows where the element of the greatest length is switched with element of the lowest length"); // if there several elements of max/min Length - program will use the first of them)
+            Console.WriteLine("SUBTASK_2: An array splitted by rows where the element of the greatest and lowest length are switched"); // if there several elements of max/min Length - program will use the first of them)
+
+            string tempMin = strArray2[positionMin2];
+            string tempMax = strArray2[positionMax2];
 
             for (int i = 0; i < strArray2.Length; i++)
             {
                 if (i == positionMin2)
-                    Console.WriteLine(strArray2[positionMax2]); //все равно что-то не то, выводится лишний символ
-                if (i == positionMax2)
-                    Console.WriteLine(strArray2[positionMin2]);
+                   Console.WriteLine(tempMax);
+                else if (i == positionMax2)
+                    Console.WriteLine(tempMin);
                 else
                     Console.WriteLine(strArray2[i]);
             }
@@ -87,10 +91,10 @@ namespace HW._04.Task_5.String
             Console.WriteLine($"The amount of letters is: {amountLetters}");
          }
 
-        /* private static void MethodPart4(string str)
-         {
-             Console.WriteLine("SUBTASK_4:");
-
-         }*/
+        private static void MethodPart4(string str)
+        {
+            Console.WriteLine("SUBTASK_4:");
+            Array.ForEach(str.Split(' ').OrderByDescending(x => x.Length).ToArray(), x => Console.WriteLine(x));
+        }
     }
 }
