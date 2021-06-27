@@ -11,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.02.Types", "HW.02.Types\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW.02.Quadratic.Formula", "HW.02.Quadratic.Formula\HW.02.Quadratic.Formula.csproj", "{8919B8C0-DD4C-4962-8503-3E5D5284AE4C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_05.Task1.Strings", "HW_05.Task1.Strings\HW_05.Task1.Strings.csproj", "{77366D0D-79B2-43E1-95E6-3418BC618EAE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_05.Task1.Strings", "HW_05.Task1.Strings\HW_05.Task1.Strings.csproj", "{77366D0D-79B2-43E1-95E6-3418BC618EAE}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_05.Task2.sb", "HW_05.Task2.StringBuilder\HW_05.Task2.sb.csproj", "{72B20A4E-508A-498C-BCA8-82CFFE0EDE5F}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{77366D0D-79B2-43E1-95E6-3418BC618EAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{77366D0D-79B2-43E1-95E6-3418BC618EAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{77366D0D-79B2-43E1-95E6-3418BC618EAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{72B20A4E-508A-498C-BCA8-82CFFE0EDE5F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{72B20A4E-508A-498C-BCA8-82CFFE0EDE5F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{72B20A4E-508A-498C-BCA8-82CFFE0EDE5F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{72B20A4E-508A-498C-BCA8-82CFFE0EDE5F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
