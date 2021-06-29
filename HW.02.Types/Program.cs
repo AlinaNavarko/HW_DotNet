@@ -42,7 +42,6 @@ namespace HW._02.Types
             Console.WriteLine("TypeE1: " + E1.GetType());
             Console.WriteLine("TypeE2: " + E2.GetType());
 
-
             Console.ReadKey();
         }
     }
