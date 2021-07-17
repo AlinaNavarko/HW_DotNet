@@ -37,7 +37,7 @@ namespace HW_08_Task3
 
         public void GetSalary()
         {
-            Console.WriteLine($"Salary is {BaseSalary * Rate + Bonus}");
+            Console.WriteLine($"Salary is {Salary}");
         }
         public void GetInfo()
         {

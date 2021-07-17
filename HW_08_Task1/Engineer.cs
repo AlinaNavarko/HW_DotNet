@@ -10,7 +10,7 @@ namespace HW_08_Task1
     {
         float _baseSalary = 500;
 
-        List<string> _responsibilities = new List<string>(5) { "English"};
+        List<string> _responsibilities = new List<string>(1) { "English"};
         
         public Guid Id { get; private set; }
         public string Company { get; set; }

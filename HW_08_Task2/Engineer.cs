@@ -8,7 +8,6 @@ namespace HW_08_Task2
 {
     abstract class Engineer
     {
-
         float _baseSalary = 500;
         List<string> _responsibilities = new List<string>(1) { "English" };
         public Guid Id { get; set; }
@@ -25,7 +24,6 @@ namespace HW_08_Task2
         public abstract int Rate { get; }
         public abstract float Bonus { get; }
         public abstract float Salary { get; }
-        // public virtual List<string> Responsibilities { get { return _baseResponsibilities; } set { _baseResponsibilities = value; } }
 
         public abstract void GetSalary();
 
