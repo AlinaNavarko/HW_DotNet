@@ -15,7 +15,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_06_Task1_AssemblyOne", "
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_06_Task1_AssemblyTwo", "HW_06_Task1_AssemblyTwo\HW_06_Task1_AssemblyTwo.csproj", "{1005B4FF-14E9-4F7C-BD2F-9939DE4295DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW_06_Task2_Motorcycle", "HW_06_Task2_Motorcycle\HW_06_Task2_Motorcycle.csproj", "{C6189147-04B0-4F27-B5E6-76B0E7DA7D42}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_06_Task2_Motorcycle", "HW_06_Task2_Motorcycle\HW_06_Task2_Motorcycle.csproj", "{C6189147-04B0-4F27-B5E6-76B0E7DA7D42}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW_05.Task1.Strings", "HW_05.Task1.Strings\HW_05.Task1.Strings.csproj", "{77366D0D-79B2-43E1-95E6-3418BC618EAE}"
 EndProject
