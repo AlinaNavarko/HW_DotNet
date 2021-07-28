@@ -10,6 +10,6 @@ namespace HW11.Task2
         public ApplicationContext() => Database.EnsureCreated();
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder) =>
-            optionsBuilder.UseSqlite(@"Data Source=..\\Transport.db");
+          optionsBuilder.UseSqlite(@"Data Source=..\\Transport.db");
     }
 }
