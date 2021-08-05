@@ -2,12 +2,12 @@
 
 namespace HW_11_Task_2
 {
-    interface IMotorcycleRepository
+    interface IMotorcycleRepository<T>
     {
-        Motorcycle GetMotorcycleByID(int Id);
-        List<Motorcycle> GetMotorcycles();
-        void CreateMotorcycle(Motorcycle motorcycle);
-        void UpdateMotorcycle(Motorcycle motorcycle, string newName, string newModel, int newOdometer);
-        void DeleteMotorcycle(Motorcycle motorcycle);
+        T GetMotorcycleByID(int Id);
+        List<T> GetMotorcycles();
+        void CreateMotorcycle(T motorcycle);
+        void UpdateMotorcycle(T motorcycle, string newName, string newModel, int newOdometer);
+        void DeleteMotorcycle(T motorcycle);
     }
 }
