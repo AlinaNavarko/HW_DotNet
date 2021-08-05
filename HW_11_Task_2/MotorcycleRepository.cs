@@ -3,7 +3,7 @@ using System.Collections.Generic;
 
 namespace HW_11_Task_2
 {
-    class MotorcycleRepository : IMotorcycleRepository
+    class MotorcycleRepository : IMotorcycleRepository<Motorcycle>
     {
         private static List<Motorcycle> _motorcycles = new List<Motorcycle>();
 
@@ -41,7 +41,6 @@ namespace HW_11_Task_2
             _motorcycles.Remove(motorcycle);
             Log.Information($"The moto was removed from the list.");
         }
-
 
         public void UpdateMotorcycle(Motorcycle motorcycle, string newName, string newModel, int newOdometer)
         {
